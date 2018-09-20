@@ -1,5 +1,6 @@
 body{
     font-family: 'HouschkaPro', sans-serif;
+    font-size: 1vw;
     padding: 0;
     margin: 0;
     background-color: #b9d6ef;
@@ -11,11 +12,11 @@ div{
     z-index: -2;
 }
 .cloud{
-	width: 200px; height: 60px;
+	width: 11vw; height: 3.5vw;
 	background: #fff;
-	border-radius: 200px;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 200px;
+	border-radius: 11vw;
+	-moz-border-radius: 6vw;
+	-webkit-border-radius: 11vw;
     position: relative; 
     z-index: -3;
 }
@@ -23,12 +24,12 @@ div{
 	content: '';
 	position: absolute; 
 	background: #fff;
-	width: 100px; height: 80px;
-	position: absolute; top: -15px; left: 10px;
+	width: 6vw; height: 4.7vw;
+	position: absolute; top: -0.9vw; left: 0.6vw;
 	
-	border-radius: 100px;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
+	border-radius: 6vw;
+	-moz-border-radius: 6vw;
+	-webkit-border-radius: 6vw;
 	
 	-webkit-transform: rotate(30deg);
 	transform: rotate(30deg);
@@ -36,8 +37,8 @@ div{
     z-index: -4;
 }
 .cloud:after {
-	width: 120px; height: 120px;
-    top: -55px; left: auto; right: 15px;
+	width: 7.1vw; height: 7.1vw;
+    top: -3.7vw; left: auto; right: 0.9vw;
     z-index: -5;
 }
 .c1 {
@@ -46,7 +47,7 @@ div{
 	-o-animation: moveclouds 15s linear infinite;
 }
 .c2 {
-	left: 200px;
+	left: 11vw;
 	-webkit-transform: scale(0.6);
 	-moz-transform: scale(0.4);
 	transform: scale(0.6);
@@ -57,7 +58,7 @@ div{
 	-o-animation: moveclouds 25s linear infinite;
 }
 .c3 {
-    left: -250px; top: -100px;
+    left: -15vw; top: -6vw;
     
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
@@ -69,26 +70,27 @@ div{
     -o-animation: moveclouds 20s linear infinite;
 }
 .titles__first{
-    font-size: 50px;
+    font-size: 3vw;
     color: #fefefe;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 2px;
+    margin-top: 0.1vw;
     z-index: -6;
 }
 h1{
-    font-size: 10px;
+    font-size: 0.6vw;
     font-family: 'HouschkaPro Medium';
     color: #266b97;
     text-transform: uppercase;
     text-align: center;
-    margin: 20px;
+    margin: 1.2vw;
     z-index: -7;
 }
 
 form{
-    height: 36px;
-    border-radius: 3px;
+    height: 2.1vw;
+    border-radius: 0.2vw;
+    font-size: 0.85vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,32 +99,35 @@ form{
 }
 
 form input{
-    margin-right: 4px;
+    margin-right: 0.24vw;
+    font-size: 0.85vw;
     border: none;
-    widows: 300px;
-    height: 36px;
-    border-radius: 3px;
-    border: 1px solid rgb(255, 249, 249);
+    widows: 18vw;
+    height: 2.15vw;
+    border-radius: 0.17vw;
+    border: 0.05vw solid rgb(255, 249, 249);
     z-index: -9;
 }
 
 form input[type="email"]
 {
-    padding-left: 10px;
+    padding-left: 0.6vw;
+    font-size: 0.85vw;
 }
 
 button{
     color: #ffffff;
-    border-radius: 3px;
-    width: 92px;
-    height: 40px;
+    border-radius: 0.17vw;
+    width: 5.5vw;
+    height: 2.4vw;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid #fabb39;
+    font-size: 0.7vw;
+    padding-left: 0.6vw;
+    padding-right: 0.6vw;
+    border: 0.06vw solid #fabb39;
     transition: all 0.5s ease-in-out;
     background: linear-gradient(to top, #f8a426, #fbc742);
 }
@@ -132,52 +137,53 @@ button:hover{
 }
 .ice{
     position: absolute;
-    left: 480px;
-    top: 465px;
+    max-height: 30vw;
+    left: 28.5vw;
+    top: 27vw;
     z-index: -10;
 }
 .ship{
     position: relative;
-    left: 301px;
-    top: 258px;
-    width: 48px;
-    height: 21px;
+    left: 22vw;
+    top: 15.4vw;
+    width: 2.85vw;
+    height: 1.25vw;
     z-index: -10;
 }
 .water{
     display: block;
     background-color: rgb(38, 107, 151);
     position: relative;
-    left: 0px;
-    top: 244px;
-    min-width: 400;
-    max-width: 2000;
-    height: 343px;
+    left: 0vw;
+    top: 14.5vw;
+    min-width: 24vw;
+    max-width: 119vw;
+    height: 20.4vw;
     z-index: -11;
 }
 .top_water{
     display: inherit;
     position: absolute(0 0 0 0);
     background: #ddecfa;
-    top: 0px;
+    top: 0.01vw;
     width: 100vw;
-    height: 6px;
+    height: 0.36vw;
     z-index: -12;
 }
 .mid_water{
     display: inherit;
     position: absolute(0 0 0 0);
     background: #ddecfa;
-    top: 0;
+    top: 0vw;
     width: 100vw;
-    height: 9px;
+    height: 0.40vw;
     background-color: rgb(50, 125, 173);
     z-index: -13;
 }  
 .ice{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-flex;
+    top: 27.8vw;
+    left: 40vw;
 }
 
 
@@ -186,14 +192,14 @@ button:hover{
 
 
 @-webkit-keyframes moveclouds {
-	0% {margin-left: 1000px;}
-	100% {margin-left: -1000px;}
+	0% {margin-left: 59.5vw;}
+	100% {margin-left: -59.5vw;}
 }
 @-moz-keyframes moveclouds {
-	0% {margin-left: 1000px;}
-	100% {margin-left: -1000px;}
+	0% {margin-left: 59.5vw;}
+	100% {margin-left: -59.5vw;}
 }
 @-o-keyframes moveclouds {
-	0% {margin-left: 1000px;}
-	100% {margin-left: -1000px;}
+	0% {margin-left: 59.5vw;}
+	100% {margin-left: -59.5vw;}
 }
